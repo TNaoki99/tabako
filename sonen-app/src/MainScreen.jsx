@@ -26,7 +26,7 @@ export default function MainScreen() {
           className="bg-red-500 text-white px-6 py-3 mt-6 rounded-full shadow hover:bg-red-600"
           onClick={() => alert("禁煙開始画面に遷移")}
         >
-          禁煙する
+          禁煙する?
         </button>
       </div>
     </div>

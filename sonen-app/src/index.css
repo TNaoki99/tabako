@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* --- グローバルスタイルの追加（任意） --- */
+
+/* 背景とフォントの初期設定 */
+body {
+  @apply bg-white text-gray-800 font-sans;
+  margin: 0;
+  padding: 0;
+}
+
+/* スクロールバーを非表示（必要な場合） */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* 見出しに共通デザインを追加 */
+h1, h2, h3 {
+  @apply font-bold text-blue-700;
+}
+
+/* ボタンに軽いアニメーション */
+button {
+  @apply transition duration-200 ease-in-out;
+}
+
+/* カード風コンテナの共通設定 */
+.card {
+  @apply bg-white rounded-2xl shadow-md p-4;
+}
+
+/* フォーム入力欄のデザイン */
+input {
+  @apply border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400;
+}
+
